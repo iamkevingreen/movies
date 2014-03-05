@@ -1,0 +1,19 @@
+<% include ../layouts/_header %>
+<ul>
+<% posts.forEach(function(post){ %>
+<li>
+  <% include ../layouts/_postHead %>
+</li>
+<% }) %>
+</ul>
+
+<div class="pagination group">
+  <% for (var i = 0; i < pages.length; i++) { %>
+    <% var page = pages[i] %>
+    <% if (i === currentIndex - 1) { %>
+      <a href="<%= data.baseUrl %><%= page.url %>" class="newer"> Newer &#8594;</a>
+    <% } else if (i === currentIndex + 1) { %>
+      <a href="<%= data.baseUrl %><%= page.url %>" class="older"> &#8592; Older</a>
+    <% } %>
+  <% } %>
+</div>

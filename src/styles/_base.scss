@@ -1,0 +1,142 @@
+// Choose one of these to be your mainTheme color
+$green: hsl(151, 65%, 60%);
+$blue: #344A96;
+$orange: hsl(6, 90%, 70%);
+$purple: hsl(260, 38%, 56%);
+
+$offBlack: hsl(10, 1%, 22%);
+$grey: lighten($offBlack, 50);
+
+$codeFont: Monaco, Consolas, monospace;
+$postFont: 'Merriweather', serif;
+$headerFont: 'Open Sans', sans-serif;
+
+$mainTheme: $blue;
+$baseTextColor: $offBlack;
+$lightTextColor: $grey;
+
+@mixin breakpoint($point) {
+  @if $point == big-phone {
+    @media (max-width: 1250px) { @content; }
+  }
+  @else if $point == small-phone {
+    @media (max-width: 630px)  { @content; }
+  }
+}
+@mixin box-sizing() {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+// Clearfix
+.group {
+  @include clearfix;
+}
+
+body {
+  margin: 0;
+  color: $baseTextColor;
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  font-family: $headerFont;
+  font-size: 17px;
+
+  @include breakpoint(big-phone) {
+    font-size: 16px;
+  }
+
+  @include breakpoint(small-phone) {
+    font-size: 12px;
+  }
+}
+
+ul {
+  padding: 0 0;
+  margin: 0 0;
+}
+
+.image-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    opacity: .4;
+  }
+}
+.single {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background: rgba(43,48,59,1);
+}
+.content {
+  position: relative;
+  margin: 0px auto 0;
+  //max-width: 680px;
+  padding-left: 250px;
+  width: 100%;
+  height: 100%;
+  @include box-sizing;
+  li {
+    width: 25%;
+    float: left;
+    margin: 0 0;
+    padding: 0 0;
+    list-style-type: none;
+    min-height: 250px;
+    position: relative;
+    .image-wrapper {
+      position: absolute;
+      padding: 20px;
+      @include box-sizing();
+      width: 100%;
+      height: 100%;
+      background: rgba(11,25,32,1);
+    }
+  }
+
+  a {
+    color: #fff;
+    @include transition(color 0.2s);
+
+    &:hover {
+      color: $mainTheme;
+    }
+  }
+
+  @include breakpoint(big-phone) {
+    margin: 65px auto 25px;
+    width: 86%;
+  }
+
+  @include breakpoint(small-phone) {
+    margin: 50px auto 15px;
+  }
+}
+
+.pagination {
+  width: 100%;
+
+  a {
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: .7em 0;
+    text-decoration: none;
+  }
+}
+
+.older {
+  float: left;
+}
+
+.newer {
+  float: right;
+}

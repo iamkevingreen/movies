@@ -1,0 +1,16 @@
+<% locals.title = post.title;
+  if (post.description) {
+    locals.description = post.description;
+  }
+%>
+<% include _header %>
+<div class="single">
+<% include _post %>
+</div>
+<div class="post-body markdown">
+
+	<%= post.genre %> <%= post.date %>
+	<%- post.content %>
+
+</div>
+<% include _footer %>
