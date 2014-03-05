@@ -4,7 +4,7 @@
   actors: "James Stewart, Lee Remick, Ben Gazzara",
   director: "Otto Preminger",
   genre: "Drama",
-  img: "anatonmy-of-a-murder-1948.jpg",
+  img: "anatomy-of-a-murder-1959.jpg",
   youtube: "http://www.youtube.com/watch?v=9UBVdITcVf8"
 }
 

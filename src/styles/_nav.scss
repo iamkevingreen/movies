@@ -15,12 +15,7 @@ nav {
     }
   }
 
-  @include breakpoint(big-phone) {
-    overflow: hidden;
-    width: 100%;
-    height: auto;
-    @include clearfix;
-  }
+
 }
 
 .nav-show {
