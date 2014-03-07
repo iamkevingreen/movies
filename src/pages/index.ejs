@@ -1,11 +1,12 @@
 <% include ../layouts/_header %>
-<ul>
+<ul id="mixx">
 <% posts.forEach(function(post){ %>
-<li>
+<li class="mix <%= post.genre %>" data-my-order="<%= post.dated %>">
   <% include ../layouts/_postHead %>
 </li>
 <% }) %>
 </ul>
+
 
 <div class="pagination group">
   <% for (var i = 0; i < pages.length; i++) { %>
@@ -17,3 +18,5 @@
     <% } %>
   <% } %>
 </div>
+
+<% include ../layouts/_footer %>

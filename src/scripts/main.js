@@ -12,6 +12,8 @@ $(function() {
     $navBar.toggleClass('nav-show');
   });
 
+    $('#mixx').mixItUp(); 
+
   $('.content').on(hitEvent, function(event) {
     if ($navBar.hasClass('nav-show')) {
       $navBar.removeClass('nav-show');

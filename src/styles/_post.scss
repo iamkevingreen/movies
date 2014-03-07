@@ -8,12 +8,18 @@
     text-decoration: none;
   }
 }
+.single {
+  overflow: hidden;
+  @include box-sizing;
+  padding-left: 20px;
+}
 .post-single {
   .image-wrapper {
     min-height: 500px;
+    overflow: hidden;
     img {
       position: relative;
-      top: -300px;
+      top: -160px;
     }
     a {
 
