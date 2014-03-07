@@ -5,7 +5,7 @@
   director: "Harold Buchman, Sidney J. Furie",
   genre: "Drama",
   img: "petrocelli-1974-6-1.jpg",
-  youtube: "http://www.youtube.com/watch?v=2i20PGOXW18",
+  youtube: "http://www.youtube.com/embed/2i20PGOXW18",
   type: "tv"
 }
 

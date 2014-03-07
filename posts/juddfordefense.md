@@ -5,7 +5,7 @@
   director: "Harold Gast",
   genre: "Drama",
   img: "judd-for-the-defense-1967-69-1.jpg",
-  youtube: "http://www.youtube.com/watch?v=cmXKx3H-hgY",
+  youtube: "http://www.youtube.com/embed/cmXKx3H-hgY",
   type: "tv"
 }
 

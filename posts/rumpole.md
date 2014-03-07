@@ -5,7 +5,7 @@
   director: "John Mortimer",
   genre: "Comedy",
   img: "rumpole-of-the-bailey-1978-1992.jpg",
-  youtube: "http://www.youtube.com/watch?v=Fu3I9uUn6nE",
+  youtube: "http://www.youtube.com/embed/Fu3I9uUn6nE",
   type: "tv"
 }
 

@@ -8,6 +8,21 @@
     text-decoration: none;
   }
 }
+button {
+  border:2px solid #fff;
+  color: #fff;
+  text-transform: uppercase;
+  background: none;
+  padding: 6px;
+  margin: 10px 0 0 10px;
+  display: inline-block;
+  focus:none;
+  outline:none;
+  &.active {
+    background: #fff;
+    color: rgba(52,74,150,1);
+  }
+}
 .single {
   overflow: hidden;
   @include box-sizing;

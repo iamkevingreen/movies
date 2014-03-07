@@ -5,7 +5,7 @@
   director: "Dean Hargrove",
   genre: "Drama",
   img: "matlock-1986-1995.jpg",
-  youtube: "http://www.youtube.com/watch?v=6XHZe7D6oyk",
+  youtube: "http://www.youtube.com/embed/6XHZe7D6oyk",
   type: "tv"
 }
 

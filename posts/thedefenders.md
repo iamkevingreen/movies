@@ -5,7 +5,7 @@
   director: "Reginald Rose",
   genre: "Drama",
   img: "the-defenders-e-g-maarshall-1961-5.jpg",
-  youtube: "http://www.youtube.com/watch?v=mrOWiVv0KAM",
+  youtube: "http://www.youtube.com/embed/mrOWiVv0KAM",
   type: "tv"
 }
 

@@ -5,7 +5,7 @@
   director: "Bruce Helford",
   genre: "Drama",
   img: "civil-wars-1991-1993-6.jpg",
-  youtube: "http://www.youtube.com/watch?v=jvTuDRrs2VE",
+  youtube: "http://www.youtube.com/embed/jvTuDRrs2VE",
   type: "tv"
 }
 

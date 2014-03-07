@@ -5,7 +5,7 @@
   director: "John Jay Osborn, Jr.",
   genre: "Drama",
   img: "the-paper-chase-1973.jpg",
-  youtube: "http://www.youtube.com/watch?v=pOWgTtSiVwA",
+  youtube: "http://www.youtube.com/embed/pOWgTtSiVwA",
   type: "tv"
 }
 

@@ -5,7 +5,7 @@
   director: "Donald P. Bellisario",
   genre: "Drama",
   img: "jag-1995-2005.jpg",
-  youtube: "http://www.youtube.com/watch?v=LUXA0ANC_uM",
+  youtube: "http://www.youtube.com/embed/LUXA0ANC_uM",
   type: "tv"
 }
 

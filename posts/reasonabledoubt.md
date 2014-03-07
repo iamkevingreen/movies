@@ -5,7 +5,7 @@
   director: "Robert Singer",
   genre: "Drama",
   img: "reasonable-doubts-1991-93.jpg",
-  youtube: "http://www.youtube.com/watch?v=CChirT4jmZw",
+  youtube: "http://www.youtube.com/embed/CChirT4jmZw",
   type: "tv"
 }
 

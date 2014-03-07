@@ -5,7 +5,7 @@
   director: "Steven Bochco, Terry Louise Fisher",
   genre: "Comedy",
   img: "la-law-1986-1994-1.jpg",
-  youtube: "http://www.youtube.com/watch?v=nIQxvUsIMvk",
+  youtube: "http://www.youtube.com/embed/nIQxvUsIMvk",
   type: "tv"
 }
 

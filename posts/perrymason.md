@@ -5,7 +5,7 @@
   director: "Erle Stanley Gardner",
   genre: "Drama",
   img: "perry-mason-1957-1966.jpg",
-  youtube: "http://www.youtube.com/watch?v=AQV9sLDYhBw",
+  youtube: "http://www.youtube.com/embed/AQV9sLDYhBw",
   type: "tv"
 }
 

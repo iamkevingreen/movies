@@ -1,7 +1,7 @@
 <% include ../layouts/_header %>
 <ul id="mixx">
 <% posts.forEach(function(post){ %>
-<li class="mix <%= post.genre %>" data-my-order="<%= post.dated %>">
+<li class="mix <%if (post.type === 'tv') {%> tv <%} else {%> movies <%} %>" data-my-order="<%= post.dated %>">
   <% include ../layouts/_postHead %>
 </li>
 <% }) %>

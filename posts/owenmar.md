@@ -5,7 +5,7 @@
   director: "Jerry McNeely, David Victor",
   genre: "Drama",
   img: "owen-marshall-counselor-at-law-1971-1974.jpg",
-  youtube: "http://www.youtube.com/watch?v=hx6jyVbtS_I",
+  youtube: "http://www.youtube.com/embed/hx6jyVbtS_I",
   type: "tv"
 }
 
