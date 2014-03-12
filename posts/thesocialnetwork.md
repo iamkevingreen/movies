@@ -4,7 +4,7 @@
   actors: "Jesse Eisenberg, Rooney Mara, Andrew Garfield",
   director: "David Finch",
   genre: "Drama",
-  img: "the-social-network-1.jpg",
+  img: "the-social-network.jpg",
   youtube: "http://www.youtube.com/embed/VKnNUYknsuQ"
 }
 

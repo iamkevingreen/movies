@@ -4,7 +4,7 @@
   actors: "Rose Byrne, Glenn Close, Ted Danson, Željko Ivanek",
   director: "Glenn Kessler, Todd A. Kessler, Daniel Zelman",
   genre: "Drama",
-  img: ".jpg",
+  img: "damages.jpg",
   youtube: "http://www.youtube.com/embed/2WlDHtH_ntg",
   type: "tv"
 }

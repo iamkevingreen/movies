@@ -4,7 +4,7 @@
   actors: "Julia Roberts, Albert Finney, Aaron Eckhart",
   director: "Steven Soderbergh",
   genre: "Drama",
-  img: ".jpg",
+  img: "erin-bro.jpg",
   youtube: "http://www.youtube.com/embed/BGX4nMrnxg0"
 }
 

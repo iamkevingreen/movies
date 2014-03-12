@@ -4,7 +4,7 @@
   actors: "Spencer Tracy, Katharine Hepburn",
   director: "George Cukor",
   genre: "Comedy",
-  img: ".jpg",
+  img: "adams-ribs.jpg",
   youtube: "http://www.youtube.com/embed/7KIsbOYj97M"
 }
 

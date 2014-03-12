@@ -4,7 +4,7 @@
   actors: "Daniel Day-Lewis, Pete Postlethwaite, Emma Thompson",
   director: "",
   genre: "Drama",
-  img: ".jpg",
+  img: "in-the-name-of-the-father.jpg",
   youtube: "http://www.youtube.com/embed/b1VcwIncgYs"
 }
 

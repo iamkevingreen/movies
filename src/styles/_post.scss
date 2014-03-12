@@ -23,6 +23,12 @@ button {
     color: rgba(52,74,150,1);
   }
 }
+
+.post-body {
+  padding: 100px;
+  width: 50%;
+  font-size: 1.1em;
+}
 .single {
   overflow: hidden;
   @include box-sizing;

@@ -4,7 +4,7 @@
   actors: "Orson Welles, Bradford Dillman, Dean Stockwell",
   director: "Richard Fleischer",
   genre: "Drama",
-  img: ".jpg",
+  img: "compulsion.jpg",
   youtube: "http://www.youtube.com/embed/CrjbL4eedkQ"
 }
 
