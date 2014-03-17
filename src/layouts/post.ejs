@@ -50,6 +50,8 @@
 	<div class="grad-overlay"></div>
 <% include _post %>
 </div>
+
+<% if (post.youtube != "") { %>
 <div class="modal-open">
 	<svg class="play" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" width="100px" height="77px" viewBox="0 0 100 77" enable-background="new 0 0 100 77" xml:space="preserve">
 	<g>
@@ -60,6 +62,7 @@
 
 	<span>Play Trailer</span>
 </div>
+<% } %>
 <div class="post-body markdown">
 
 	<%= post.genre %> <br/><%- post.dated %>
