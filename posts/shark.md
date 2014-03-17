@@ -1,11 +1,11 @@
 {
   title: "Shark",
-  dated:  2006-2008,
+  dated:  "2006-2008",
   actors: "James Woods, Jeri Ryan, Danielle Panabaker",
   director: "Ian Biederman",
   genre: "Drama",
   img: "shark-2006-8.jpg",
-  youtube: "http://www.youtube.com/embed/r7SQ8eKa8gY",
+  youtube: "http://www.youtube.com/v/r7SQ8eKa8gY",
   type: "tv"
 }
 

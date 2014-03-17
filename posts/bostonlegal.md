@@ -1,11 +1,11 @@
 {
   title: "Boston Legal",
-  dated:  2004-2008,
+  dated:  "2004-2008",
   actors: "James Spader, William Shatner, Candice Bergen",
   director: "David E. Kelley",
   genre: "Drama",
   img: "boston-legal-2004-8.jpg",
-  youtube: "http://www.youtube.com/embed/Hfc7l1vz2jU",
+  youtube: "http://www.youtube.com/v/Hfc7l1vz2jU",
   type: "tv"
 }
 

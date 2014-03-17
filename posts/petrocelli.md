@@ -1,11 +1,11 @@
 {
   title: "Petrocelli",
-  dated: 1974-1976,
+  dated: "1974-1976",
   actors: "Barry Newman, Susan Howard, Albert Salmi",
   director: "Harold Buchman, Sidney J. Furie",
   genre: "Drama",
   img: "petrocelli-1974-6-1.jpg",
-  youtube: "http://www.youtube.com/embed/2i20PGOXW18",
+  youtube: "http://www.youtube.com/v/2i20PGOXW18",
   type: "tv"
 }
 

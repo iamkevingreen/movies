@@ -1,11 +1,11 @@
 {
   title: "Alley McBeal",
-  dated: 1997-2002,
+  dated: "1997-2002",
   actors: "Calista Flockhart, Greg Germann, Jane Krakowski",
   director: "David E. Kelley",
   genre: "Drama",
   img: "ally-mcbeal-1997-2002-1.jpg",
-  youtube: "http://www.youtube.com/embed/eFA6ox0OGWw",
+  youtube: "http://www.youtube.com/v/eFA6ox0OGWw",
   type: "tv"
 }
 

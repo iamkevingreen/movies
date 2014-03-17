@@ -3,26 +3,29 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <link href="<%= data.baseUrl %>styles/main.css" rel="stylesheet">
+    <link href="styles/main.css" rel="stylesheet">
     <% if (locals.title) { %>
     <title><%= locals.title %></title>
     <% } else { %>
-    <title>My Blog</title>
+    <title>Levin Movie Directory</title>
     <% } %>
   </head>
   <body>
     <nav>
       <h1 class="name">
-        <a href="<%= data.baseUrl %>">Levin Directory</a>
+
+        <a href="<%= data.baseUrl %>"><img src="images/logo.png" alt="" /></a>
       </h1>
       <!--<button class="sort" data-filter="my-order:asc">Ascending Order</button>
 <button class="sort" data-sort="my-order:desc">Descending Order</button>-->
 
 <br />
-<div class="button-placement">
-  <button class="filter" data-filter="all">All</button>
-  <button class="filter" data-filter=".tv">TV</button>
-  <button class="filter" data-filter=".movies">Movies</button>
-</div>
+    <% if (!locals.title) { %>
+      <div class="button-placement">
+        <button class="filter" data-filter="all">All</button>
+        <button class="filter" data-filter=".tv">TV</button>
+        <button class="filter" data-filter=".movies">Movies</button>
+      </div>
+    <% } %>
     </nav>
     <div class="content">

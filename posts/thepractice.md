@@ -1,11 +1,11 @@
 {
   title: "The Practice",
-  dated: 1997-2004,
+  dated: "1997-2004",
   actors: "Steve Harris, Dylan McDermott, Kelli Williams",
   director: "David E. Kelley",
   genre: "Drama",
   img: "the-practice-1997-2004.jpg",
-  youtube: "http://www.youtube.com/embed/3Psk_IxJ9Bs",
+  youtube: "http://www.youtube.com/v/3Psk_IxJ9Bs",
   type: "tv"
 }
 

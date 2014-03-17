@@ -1,11 +1,11 @@
 {
   title: "The Paper Chase",
-  dated: 1978-1983,
+  dated: "1978-1983",
   actors: "James Stephens, John Houseman",
   director: "John Jay Osborn, Jr.",
   genre: "Drama",
   img: "the-paper-chase-1973.jpg",
-  youtube: "http://www.youtube.com/embed/pOWgTtSiVwA",
+  youtube: "http://www.youtube.com/v/pOWgTtSiVwA",
   type: "tv"
 }
 

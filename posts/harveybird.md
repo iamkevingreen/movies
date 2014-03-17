@@ -1,11 +1,11 @@
 {
   title: "Harvey Birdman, Attorney at Law",
-  dated: 2001-2007,
+  dated: "2001-2007",
   actors: "Gary Cole, Stephen Colbert",
   director: "Michael Ouweleen, Erik Richter",
   genre: "Comedy",
   img: "harvey-birdman-attorney-at-law-tv.jpg",
-  youtube: "http://www.youtube.com/embed/hamI0qW3Yms",
+  youtube: "http://www.youtube.com/v/hamI0qW3Yms",
   type: "tv"
 }
 

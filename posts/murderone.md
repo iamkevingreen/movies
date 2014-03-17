@@ -1,6 +1,6 @@
 {
   title: "Murder One",
-  dated:  1995-1997,
+  dated:  "1995-1997",
   actors: "Daniel Benzali, Anthony LaPaglia",
   director: "Steven Bochco, Charles H. Eglee, Channing Gibson",
   genre: "Drama",

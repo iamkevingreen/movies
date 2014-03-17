@@ -1,11 +1,11 @@
 {
   title: "Perry Mason",
-  dated:  1957-1966,
+  dated:  "1957-1966",
   actors: "Raymond Burr, William Hopper, Barbara Hale",
   director: "Erle Stanley Gardner",
   genre: "Drama",
   img: "perry-mason-1957-1966.jpg",
-  youtube: "http://www.youtube.com/embed/AQV9sLDYhBw",
+  youtube: "http://www.youtube.com/v/AQV9sLDYhBw",
   type: "tv"
 }
 

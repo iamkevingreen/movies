@@ -1,11 +1,11 @@
 {
   title: "Eli Stone",
-  dated:  2008-2009,
+  dated:  "2008-2009",
   actors: "Jonny Lee Miller, Natasha Henstridge",
   director: "Greg Berlanti, Marc Guggenheim",
   genre: "Comedy",
   img: "eli-stone-2008-9.jpg",
-  youtube: "http://www.youtube.com/embed/bjwAFo4OErc ",
+  youtube: "http://www.youtube.com/v/bjwAFo4OErc ",
   type: "tv"
 }
 

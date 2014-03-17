@@ -5,7 +5,7 @@
   director: "Dick Wolf",
   genre: "Drama",
   img: "law-and-order-svu.jpg",
-  youtube: "http://www.youtube.com/embed/wgipi-ovNZs",
+  youtube: "http://www.youtube.com/v/wgipi-ovNZs",
   type: "tv"
 }
 

@@ -1,11 +1,11 @@
 {
   title: "Law & Order: Criminal Intent",
-  dated: 2001-2011,
+  dated: "2001-2011",
   actors: "Vincent D’Onofrio, Kathryn Erbe, Courtney B. Vance",
   director: "Dick Wolf",
   genre: "Drama",
   img: "law-and-order-criminal-intent--2001--1.jpg",
-  youtube: "http://www.youtube.com/embed/UYrcnSyXUdk",
+  youtube: "http://www.youtube.com/v/UYrcnSyXUdk",
   type: "tv"
 }
 

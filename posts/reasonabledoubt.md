@@ -1,11 +1,11 @@
 {
   title: "Reasonable Doubts",
-  dated:  1991-1993,
+  dated:  "1991-1993",
   actors: "Marlee Matlin, Mark Harmon",
   director: "Robert Singer",
   genre: "Drama",
   img: "reasonable-doubts-1991-93.jpg",
-  youtube: "http://www.youtube.com/embed/CChirT4jmZw",
+  youtube: "http://www.youtube.com/v/CChirT4jmZw",
   type: "tv"
 }
 

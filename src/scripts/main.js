@@ -12,7 +12,17 @@ $(function() {
     $navBar.toggleClass('nav-show');
   });
 
-    $('#mixx').mixItUp(); 
+  $('#mixx').mixItUp(); 
+
+  $('.modal-open').on('click', function() {
+    $('.modal').show();
+    $('#video').get(0).playVideo();
+  })
+
+  $('.close').on('click', function() {
+    $('.modal').hide();
+    $('#video').get(0).stopVideo();
+  })
 
   $('.content').on(hitEvent, function(event) {
     if ($navBar.hasClass('nav-show')) {

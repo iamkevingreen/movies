@@ -1,11 +1,11 @@
 {
   title: "Damages",
-  dated:  2007-2012,
+  dated:  "2007-2012",
   actors: "Rose Byrne, Glenn Close, Ted Danson, Željko Ivanek",
   director: "Glenn Kessler, Todd A. Kessler, Daniel Zelman",
   genre: "Drama",
   img: "damages.jpg",
-  youtube: "http://www.youtube.com/embed/2WlDHtH_ntg",
+  youtube: "http://www.youtube.com/v/2WlDHtH_ntg",
   type: "tv"
 }
 

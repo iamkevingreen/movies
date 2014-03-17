@@ -78,6 +78,93 @@ ul {
   padding: 0 0;
   margin: 0 0;
 }
+.close {
+  position:absolute;
+  right:0px;
+  margin-right:-80px;
+  margin-top:-130px;
+}
+.close g {
+  fill: #ffffff;
+}
+.modal-open {
+  margin-left: 1028px;
+  span {
+    font-size: 15px;
+    position:relative;
+    top:-4px;
+  }
+  position: absolute;
+  margin-top:-46px;
+  z-index:10;
+
+}
+.back {
+  position: absolute; 
+  top: 30px;
+  z-index: 200;
+  left: 80px;
+  svg {
+    width: 40px;
+    height:40px;
+    fill: #fff;
+  }
+  a {
+    text-decoration: none;
+  }
+  span {
+    position: relative;
+    left: 20px;
+    top: -12px;
+  }
+}
+.play {
+  fill: #ffffff;
+  width: 40px;
+  height: 22px;
+}
+.modal {
+  display: none;
+  position: fixed;
+  z-index:140;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  .overlay-youtube {
+    z-index:200;
+    width: 690px;
+    position: absolute;
+    top:50%;
+    margin-top:-215px;
+    //background: red;
+    height: 50px;
+    left: 50%;
+    margin-left: -320px;
+  }
+  embed {
+    left:50%;
+    position: absolute;
+    z-index:100;
+    top: 50%;
+    margin-left: -320px;
+    margin-top: -195px;
+
+  }
+  &:before {
+    position: fixed;
+    content: '';
+    width:100%;
+    height:100%;
+    background: rgba(0,0,0,.8);
+  }
+}
+nav {
+  z-index:0;
+  img {
+    width:80%;
+  }
+}
 
 .image-background {
   position: absolute;

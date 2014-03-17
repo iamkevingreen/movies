@@ -1,11 +1,11 @@
 {
   title: "Law & Order",
-  dated:  1990-2010,
+  dated:  "1990-2010",
   actors: "S. Epatha Merkenson, Jerry Orbach, Jesse L. Martin",
   director: "Dick Wolf",
   genre: "",
   img: "law-and-order-1990-2010.jpg",
-  youtube: "http://www.youtube.com/embed/3CQVUhfrxEU",
+  youtube: "http://www.youtube.com/v/3CQVUhfrxEU",
   type: "tv"
 }
 

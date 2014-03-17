@@ -1,11 +1,11 @@
 {
   title: "JAG",
-  dated: 1995-2005,
+  dated: "1995-2005",
   actors: "David James Elliott, Catherine Bell",
   director: "Donald P. Bellisario",
   genre: "Drama",
   img: "jag-1995-2005.jpg",
-  youtube: "http://www.youtube.com/embed/LUXA0ANC_uM",
+  youtube: "http://www.youtube.com/v/LUXA0ANC_uM",
   type: "tv"
 }
 

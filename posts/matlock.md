@@ -1,11 +1,11 @@
 {
   title: "Matlock",
-  dated:  1986-1995,
+  dated:  "1986-1995",
   actors: "Andy Griffith, Nancy Stafford, Kene Holliday",
   director: "Dean Hargrove",
   genre: "Drama",
   img: "matlock-1986-1995.jpg",
-  youtube: "http://www.youtube.com/embed/6XHZe7D6oyk",
+  youtube: "http://www.youtube.com/v/6XHZe7D6oyk",
   type: "tv"
 }
 

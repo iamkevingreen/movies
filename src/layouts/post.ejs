@@ -3,15 +3,114 @@
     locals.description = post.description;
   }
 %>
-<% include _header %>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <link href="../../styles/main.css" rel="stylesheet">
+    <% if (locals.title) { %>
+    <title><%= locals.title %></title>
+    <% } else { %>
+    <title>Levin Movie Directory</title>
+    <% } %>
+  </head>
+  <body>
+    <nav>
+      <h1 class="name">
+
+        <a href="../../index.html"><img src="../../images/logo.png" alt="" /></a>
+      </h1>
+      <!--<button class="sort" data-filter="my-order:asc">Ascending Order</button>
+<button class="sort" data-sort="my-order:desc">Descending Order</button>-->
+
+<br />
+    <% if (!locals.title) { %>
+      <div class="button-placement">
+        <button class="filter" data-filter="all">All</button>
+        <button class="filter" data-filter=".tv">TV</button>
+        <button class="filter" data-filter=".movies">Movies</button>
+      </div>
+    <% } %>
+    </nav>
+    <div class="content">
+
 <div class="single">
+	<div class="back">
+		<a href="../../index.html">
+			<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" width="100px" height="100px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+			<g>
+				<path d="M50-0.002C22.43-0.002,0,22.428,0,50c0,27.571,22.429,50.002,50,50.002c27.57,0,50-22.432,50-50.002   C100,22.428,77.57-0.002,50-0.002z M50,94.232c-24.39,0-44.23-19.842-44.23-44.233C5.771,25.608,25.61,5.768,50,5.768   S94.23,25.61,94.23,50C94.23,74.391,74.391,94.232,50,94.232z"/>
+				<path d="M59.371,46.406l-26.291-0.002l11.197-11.197c1.131-1.129,1.131-2.963,0-4.094c-1.131-1.131-2.963-1.131-4.094,0   l-16.14,16.14c-0.135,0.135-0.255,0.284-0.361,0.442c-0.043,0.064-0.073,0.135-0.111,0.201c-0.054,0.098-0.112,0.193-0.155,0.297   c-0.036,0.085-0.054,0.173-0.081,0.259c-0.029,0.095-0.064,0.185-0.084,0.283c-0.03,0.147-0.04,0.297-0.045,0.447   c-0.001,0.039-0.012,0.077-0.011,0.117c0,0.045,0.011,0.087,0.012,0.132c0.007,0.145,0.016,0.289,0.045,0.432   c0.021,0.104,0.058,0.199,0.088,0.299c0.024,0.082,0.043,0.164,0.076,0.242c0.046,0.112,0.108,0.217,0.168,0.321   c0.033,0.059,0.059,0.121,0.096,0.178c0.108,0.162,0.229,0.312,0.367,0.447l16.135,16.137c0.565,0.564,1.306,0.848,2.048,0.848   c0.742,0,1.482-0.283,2.049-0.848c1.13-1.131,1.13-2.965-0.001-4.096L33.083,52.195h26.288c6.422,0,11.645,5.223,11.645,11.643   c0,1.6,1.297,2.896,2.895,2.896c1.6,0,2.896-1.297,2.896-2.895C76.807,54.227,68.986,46.403,59.371,46.406z"/>
+			</g>
+			<span>Back to Directory</span>
+			</svg>
+		</a>
+	</div>
 	<div class="grad-overlay"></div>
 <% include _post %>
 </div>
+<div class="modal-open">
+	<svg class="play" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" width="100px" height="77px" viewBox="0 0 100 77" enable-background="new 0 0 100 77" xml:space="preserve">
+	<g>
+		<path d="M84.23,73H17.968C8.91,73,1.54,65.63,1.54,56.571V20.429C1.54,11.37,8.91,4,17.968,4H84.23   c9.059,0,16.428,7.37,16.428,16.429v36.143C100.658,65.63,93.289,73,84.23,73z M17.968,13.857c-3.624,0-6.571,2.948-6.571,6.571   v36.143c0,3.624,2.948,6.571,6.571,6.571H84.23c3.623,0,6.571-2.947,6.571-6.571V20.429c0-3.624-2.948-6.571-6.571-6.571H17.968z"/>
+	</g>
+	<path d="M42.611,23.34c0-1.344,0.898-1.809,1.995-1.029l20.802,14.774c1.096,0.779,1.096,2.053,0,2.832L44.605,54.69  c-1.097,0.778-1.995,0.315-1.995-1.031V23.34z"/>
+	</svg>
+
+	<span>Play Trailer</span>
+</div>
 <div class="post-body markdown">
 
-	<%= post.genre %> <%- post.dated %>
+	<%= post.genre %> <br/><%- post.dated %>
 	<%- post.content %>
 
 </div>
-<% include _footer %>
+
+<div class="post-extra markdown">
+	<% if (post.director != "") { %>
+
+		<% if (post.type === "tv") { %>
+			Creators <br />
+			<div class="line"></div>
+		<% } else { %>
+			Director <br />
+			<div class="line"></div>
+		<% } %>
+		<%= post.director %>
+		<br /><br /><br />
+	<% } %>
+		Actors<br />
+		<div class="line"></div>
+		<%= post.actors %>
+</div>
+
+<div class="modal">
+<div class="close"></div>
+<div class="overlay-youtube">
+	<svg class="close" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="100px" height="100px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+		<g fill="#000000">
+			<polygon points="83.586,86.414 50,52.828 16.414,86.414 13.586,83.586 47.171,50 13.586,16.415 16.414,13.586 50,47.171     83.586,13.586 86.414,16.414 52.828,50 86.414,83.586"/>
+		</g>
+	</svg>
+</div>
+  <param name="movie"
+         value="<%= post.youtube %>??version=3&autoplay=0&conrols=0&enablejsapi=1&loop=1"></param>
+  <param name="allowScriptAccess" value="always"></param>
+  <embed id="video" src="<%= post.youtube %>?version=3&autoplay=0&controls=0&enablejsapi=1&loop=1"
+         type="application/x-shockwave-flash"
+         allowscriptaccess="always"
+         width="640" height="390"></embed>
+</object>
+
+</div>
+    </div>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js" type="text/javascript"></script>
+    <script src="../../scripts/jquery.mixitup.min.js" type="text/javascript"></script>
+    <script src="../../scripts/main.js" type="text/javascript"></script>
+    <script>
+      // Add your analytics code here
+    </script>
+  </body>
+</html>
+

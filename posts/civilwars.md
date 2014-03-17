@@ -1,11 +1,11 @@
 {
   title: "Civil Wars",
-  dated:  1991-1993,
+  dated:  "1991-1993",
   actors: "Mariel Hemingway, Peter Onorati, Alan Rosenberg",
   director: "Bruce Helford",
   genre: "Drama",
   img: "civil-wars-1991-1993-6.jpg",
-  youtube: "http://www.youtube.com/embed/jvTuDRrs2VE",
+  youtube: "http://www.youtube.com/v/jvTuDRrs2VE",
   type: "tv"
 }
 

@@ -1,11 +1,11 @@
 {
   title: "Judd, for the Defense",
-  dated:  1967-1969,
+  dated:  "1967-1969",
   actors: "Carl Betz, Stephen Young",
   director: "Harold Gast",
   genre: "Drama",
   img: "judd-for-the-defense-1967-69-1.jpg",
-  youtube: "http://www.youtube.com/embed/cmXKx3H-hgY",
+  youtube: "http://www.youtube.com/v/cmXKx3H-hgY",
   type: "tv"
 }
 

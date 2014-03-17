@@ -1,11 +1,11 @@
 {
   title: "The Defenders",
-  dated:  1961-1965,
+  dated:  "1961-1965",
   actors: "E.G. Marshall, Robert Reed, Ossie Davis",
   director: "Reginald Rose",
   genre: "Drama",
   img: "the-defenders-e-g-maarshall-1961-5.jpg",
-  youtube: "http://www.youtube.com/embed/mrOWiVv0KAM",
+  youtube: "http://www.youtube.com/v/mrOWiVv0KAM",
   type: "tv"
 }
 

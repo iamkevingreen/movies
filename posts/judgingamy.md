@@ -1,11 +1,11 @@
 {
   title: "Judging Amy",
-  dated:  1992-2005,
+  dated:  "1992-2005",
   actors: "Amy Brenneman, Tyne Daly, Dan Futterman",
   director: "Amy Brenneman, Bill D'Elia, Connie Tavel, John Tinker",
   genre: "Drama",
   img: "judging-amy-1999-2005.jpg",
-  youtube: "http://www.youtube.com/embed/AF9ytsAyA4o",
+  youtube: "http://www.youtube.com/v/AF9ytsAyA4o",
   type: "tv"
 }
 

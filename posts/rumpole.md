@@ -1,11 +1,11 @@
 {
   title: "Rumpole of the Bailey",
-  dated: 1975-1992,
+  dated: "1975-1992",
   actors: "Leo McKern, Peggy Thorpe-Bates, Peter Bowles",
   director: "John Mortimer",
   genre: "Comedy",
   img: "rumpole-of-the-bailey-1978-1992.jpg",
-  youtube: "http://www.youtube.com/embed/Fu3I9uUn6nE",
+  youtube: "http://www.youtube.com/v/Fu3I9uUn6nE",
   type: "tv"
 }
 

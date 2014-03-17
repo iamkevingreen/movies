@@ -1,11 +1,11 @@
 {
   title: "L.A. Law",
-  dated: 1986-1994,
+  dated: "1986-1994",
   actors: "Harry Hamlin, Susan Dey, Corbin Bernsen, Jimmy Smits",
   director: "Steven Bochco, Terry Louise Fisher",
   genre: "Comedy",
   img: "la-law-1986-1994-1.jpg",
-  youtube: "http://www.youtube.com/embed/nIQxvUsIMvk",
+  youtube: "http://www.youtube.com/v/nIQxvUsIMvk",
   type: "tv"
 }
 
