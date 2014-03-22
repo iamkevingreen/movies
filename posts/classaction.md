@@ -5,6 +5,7 @@
   director: "Michael Apted",
   genre: "Drama",
   img: "class-action-1991-2.jpg",
+  playtext: true,
   youtube: "http://www.youtube.com/v/p1_EqTja4Pk"
 }
 

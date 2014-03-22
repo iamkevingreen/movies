@@ -5,6 +5,7 @@
   director: "Sidney Lumet",
   genre: "Drama",
   img: "the-verdict-1982.jpg",
+  playtext: true,
   youtube: "http://www.youtube.com/v/7je8_a7chkg"
 }
  

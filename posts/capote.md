@@ -5,6 +5,7 @@
   director: "Bennett Miller",
   genre: "Drama",
   img: "capote-2005-1.jpg",
+  playtext: true,
   youtube: "http://www.youtube.com/v/Q4BvvJ69pIQ"
 }
 

@@ -5,6 +5,7 @@
   director: "Rob Reiner",
   genre: "Drama",
   img: "ghosts-of-mississippi-1996-1.jpg",
+  playtext: true,
   youtube: "http://www.youtube.com/v/JS5Eg55ACYM"
 }
 

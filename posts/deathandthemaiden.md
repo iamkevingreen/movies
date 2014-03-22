@@ -5,6 +5,7 @@
   director: "Roman Polanski",
   genre: "Drama",
   img: "death-and-the-maiden-1994.jpg",
+  playtext: true,
   youtube: "http://www.youtube.com/v/Cnnz214wwkI"
 }
 

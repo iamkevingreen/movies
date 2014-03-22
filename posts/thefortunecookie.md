@@ -5,6 +5,7 @@
   director: "Billy Wilder",
   genre: "Comedy",
   img: "the-fortune-cookie-1966.jpg",
+  playtext: true,
   youtube: "http://www.youtube.com/v/t-bKdkk61LU"
 }
 

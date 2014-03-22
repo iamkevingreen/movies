@@ -92,7 +92,7 @@ ul {
   span {
     font-size: 15px;
     position:relative;
-    top:-4px;
+    top:-10px;
   }
   position: absolute;
   margin-top:-46px;
@@ -120,8 +120,8 @@ ul {
 }
 .play {
   fill: #ffffff;
-  width: 40px;
-  height: 22px;
+  width: 60px;
+  height: 32px;
 }
 .modal {
   display: none;
@@ -163,6 +163,11 @@ nav {
   z-index:0;
   img {
     width:80%;
+  }
+  p {
+    padding: 20px;
+    font-size: 15px;
+    color: rgba(0,82,155,1);
   }
 }
 

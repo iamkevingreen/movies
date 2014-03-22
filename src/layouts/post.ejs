@@ -36,8 +36,8 @@
     <div class="content">
 
 <div class="single">
-	<div class="back">
-		<a href="../../index.html">
+	
+    <a href="../../index.html"><div class="back">
 			<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" width="100px" height="100px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
 			<g>
 				<path d="M50-0.002C22.43-0.002,0,22.428,0,50c0,27.571,22.429,50.002,50,50.002c27.57,0,50-22.432,50-50.002   C100,22.428,77.57-0.002,50-0.002z M50,94.232c-24.39,0-44.23-19.842-44.23-44.233C5.771,25.608,25.61,5.768,50,5.768   S94.23,25.61,94.23,50C94.23,74.391,74.391,94.232,50,94.232z"/>
@@ -45,8 +45,8 @@
 			</g>
 			<span>Back to Directory</span>
 			</svg>
-		</a>
-	</div>
+
+	</div>   </a>
 	<div class="grad-overlay"></div>
 <% include _post %>
 </div>
@@ -58,7 +58,8 @@
 	<path d="M42.611,23.34c0-1.344,0.898-1.809,1.995-1.029l20.802,14.774c1.096,0.779,1.096,2.053,0,2.832L44.605,54.69  c-1.097,0.778-1.995,0.315-1.995-1.031V23.34z"/>
 	</svg>
 
-	<span>Play Trailer</span>
+	<span>Play 
+    <% if (post.playtext === true) { %>Trailer<% } else { %>Clip<% } %></span>
 </div>
 <div class="post-body markdown">
 

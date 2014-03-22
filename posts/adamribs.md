@@ -1,5 +1,5 @@
 {
-  title: "Adam's Ribs",
+  title: "Adam's Rib",
   dated:  1949,
   actors: "Spencer Tracy, Katharine Hepburn",
   director: "George Cukor",

@@ -5,6 +5,7 @@
   director: "William Wyler",
   genre: "Drama",
   img: "the-letter-1940-1.jpg",
+  playtext: true,
   youtube: "http://www.youtube.com/v/DsLf-AXyeT8"
 }
 

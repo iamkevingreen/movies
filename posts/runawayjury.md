@@ -5,6 +5,7 @@
   director: "Gary Fleder",
   genre: "Drama",
   img: "runaway-jury-2003.jpg",
+  playtext: true,
   youtube: "http://www.youtube.com/v/qRFxiUCO5SQ"
 }
 

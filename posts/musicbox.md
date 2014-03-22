@@ -5,6 +5,7 @@
   director: "Costa-Gavres",
   genre: "Drama",
   img: "music-box-1989-4.jpg",
+  playtext: true,
   youtube: "http://www.youtube.com/v/0_6iRt1692w"
 }
 

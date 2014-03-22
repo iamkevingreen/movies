@@ -5,6 +5,7 @@
   director: "Alan J. Pakula",
   genre: "Drama",
   img: "presumed-innocent-1990-1.jpg",
+  playtext: true,
   youtube: "http://www.youtube.com/v/rG9tMQK3hcU"
 }
 

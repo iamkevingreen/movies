@@ -5,6 +5,7 @@
   director: "Peter Yates",
   genre: "Drama",
   img: "suspect-1987.jpg",
+  playtext: true,
   youtube: "http://www.youtube.com/v/Mt71ykqrPO4"
 }
 

@@ -5,6 +5,7 @@
   director: "Richard Marquand",
   genre: "Thriller",
   img: "jagged-edge-1985.jpg",
+  playtext: true,
   youtube: "http://www.youtube.com/v/ZnQa0AI10ic"
 }
 

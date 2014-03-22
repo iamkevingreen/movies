@@ -5,6 +5,7 @@
   director: "",
   genre: "Drama",
   img: "in-the-name-of-the-father.jpg",
+  playtext: true,
   youtube: "http://www.youtube.com/v/b1VcwIncgYs"
 }
 
