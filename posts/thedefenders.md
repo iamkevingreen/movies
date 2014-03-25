@@ -6,7 +6,8 @@
   genre: "Drama",
   img: "the-defenders-e-g-maarshall-1961-5.jpg",
   youtube: "http://www.youtube.com/v/mrOWiVv0KAM",
-  type: "tv"
+  type: "tv",
+  id: 74
 }
 
 A father-and-son legal team (E.G. Marshall and Robert Reed) take on cases concerning a number of constitutional and controversial issues, with such legal concepts as right to euthanasia, illegal searches and seizures, and the “fruit of the poison tree” doctrine. 
