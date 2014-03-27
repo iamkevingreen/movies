@@ -4,7 +4,7 @@
   actors: "Glenn Close, Jeremy Irons, Ron Silver",
   director: "Barbet Schroeder",
   genre: "Drama",
-  img: "reversal-of-fortune-1990-1.jpg",
+  img: "reversal-of-fortune-1990.jpg",
   youtube: "http://www.youtube.com/v/nTFflehHtvI",
   id: 65
 }

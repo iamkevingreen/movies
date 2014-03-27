@@ -4,7 +4,7 @@
   actors: "James Stephens, John Houseman",
   director: "John Jay Osborn, Jr.",
   genre: "Drama",
-  img: "the-paper-chase-1973.jpg",
+  img: "paper-chase-1978-9-1983-6.jpg",
   youtube: "http://www.youtube.com/v/pOWgTtSiVwA",
   type: "tv",
   id: 82

@@ -165,9 +165,13 @@ nav {
     width:80%;
   }
   p {
-    padding: 20px;
-    font-size: 15px;
+    padding: 10px 20px 0px;
+    font-size: 16px;
     color: rgba(0,82,155,1);
+    .firstcharacter { float: left;  font-size: 75px; line-height: 60px; padding-top: 4px; padding-right: 8px; padding-left: 3px; font-family: Georgia; }
+    &.small {
+      font-size: 13px;
+    }
   }
 }
 
