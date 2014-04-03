@@ -18,33 +18,49 @@
 .modal-image {
   position:fixed;
   background: rgba(255,255,255,.7);
-  z-index: 300;
-  display:none;
+  z-index: -1;
+  opacity: 0;
+  //display:none;
   top: 0px;
   left: 0px;
   overflow-y:scroll;
   width:100%;
   height: 100%;
+  //@include transition(all 0.5s);
+  &.active {
+    z-index: 300;
+    opacity: 1;
+    @include transition(all 0.5s);
+  }
   .overlay-image {
     width: 100%;
     img{
-      width: 70%;
-      margin: 2% 15%;
-      height: auto;
+      //width: 70%;
+      //padding: 2% 15%;
+      //height: auto;
     }
+  }
+  .slideshow-contain {
+    position: relative;
+    width: 70%;
+    padding: 2% 15%;
   }
   div.close {
     height: 100px;
+    position:absolute;
     width: 100px;
-    top:80px;
-    margin-left: 490px;
-    left: 50%;
-    right: auto;
+    top:70px;
+    //margin-left: 490px;
+    right: 110px;
+    //right: auto;
   }
   .close {
     right: auto;
     margin-right:0px;
     margin-top:0px;
+    g {
+      fill: #000000;
+    }
   }
 }
 .toggle-image {
@@ -104,8 +120,8 @@
   }
 }
 button {
-  border:2px solid rgba(52,74,150,1);
-  color: rgba(52,74,150,1);
+  border:2px solid #00529b;
+  color: #00529b;
   text-transform: uppercase;
   background: none;
   padding: 6px;
@@ -114,7 +130,7 @@ button {
   focus:none;
   outline:none;
   &.active {
-    background: rgba(52,74,150,1);
+    background: #00529b;
     color: #fff;
   }
 }

@@ -114,7 +114,6 @@
 
 
 
-
 <div class="modal">
 <div class="close"></div>
 <div class="overlay-youtube">
@@ -139,7 +138,18 @@
 <div class="modal-image">
 
     <div class="overlay-image">
-      <img src="../../images/<%= post.img %>" alt="" />
+      <div class="slideshow-contain">
+        <div class="slideshow">
+         <% if (post.slideshow == true) { %>
+            <% for(var i = 0; i<post.num; i++) {%>
+              <div><img src="../../images/<%= post.slides[i].slide %>" alt=""></div>
+           <% };  %>
+          <% } else { %>
+            <div><img src="../../images/<%= post.img %>" alt=""></div>
+         
+        <% } %>
+        </div>
+      </div>
       <div class="close"> 
         <svg class="close" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="100px" height="100px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
     <g fill="#000000">
@@ -154,9 +164,12 @@
     </div>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js" type="text/javascript"></script>
     <script src="../../scripts/jquery.mixitup.min.js" type="text/javascript"></script>
+    <script src="../../scripts/slick.min.js" type="text/javascript"></script>
     <script src="../../scripts/main.js" type="text/javascript"></script>
+
     <script>
       // Add your analytics code here
+
     </script>
   </body>
 </html>

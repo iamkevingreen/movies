@@ -5,6 +5,12 @@
   director: "Sydney Pollack",
   genre: "Drama",
   img: "the-firm-1993.jpg",
+  slideshow: true,
+  num: 2,
+  slides: [{
+  	slide: "the-firm-1993.jpg"},
+  	{ slide: "thefirm.jpg" }
+  ],
   youtube: "http://www.youtube.com/v/JzH1Z17c4yc",
   id: 76
 }

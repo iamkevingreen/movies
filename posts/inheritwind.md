@@ -5,6 +5,13 @@
   director: "Stanley Kramer",
   genre: "Drama",
   img: "inherit-the-wind-1960.jpg",
+  slideshow: true,
+  num: 2,
+  slides: [{
+  	slide: "inherit-the-wind-1960.jpg"
+  },{
+  	slide: "inherit-the-wind-1-1960-frederic-march.jpg"
+  }],
   youtube: "http://www.youtube.com/v/S_DQUAuNUvw",
   id: 32
 }

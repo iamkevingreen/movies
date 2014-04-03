@@ -5,6 +5,23 @@
   director: "Alan J. Pakula",
   genre: "Drama",
   img: "the-pelican-brief-1993-1.jpg",
+  slideshow: true,
+  num: 13,
+  slides: [{
+  	slide: "the-pelican-brief-1993-1.jpg"},
+  	{ slide: "thepelicanbrief1.jpg" }, 
+  	{ slide: "thepelicanbrief2.jpg" }, 
+  	{ slide: "thepelicanbrief3.jpg" }, 
+  	{ slide: "thepelicanbrief4.jpg" }, 
+  	{ slide: "thepelicanbrief5.jpg" }, 
+  	{ slide: "thepelicanbrief6.jpg" }, 
+  	{ slide: "thepelicanbrief7.jpg" }, 
+  	{ slide: "thepelicanbrief8.jpg" }, 
+  	{ slide: "thepelicanbrief9.jpg" }, 
+  	{ slide: "thepelicanbrief10.jpg" }, 
+  	{ slide: "thepelicanbrief11.jpg" }, 
+  	{ slide: "thepelicanbrief12.jpg" }, 
+  ],
   youtube: "http://www.youtube.com/v/ksHzGyWSMTw",
   id: 83
 }

@@ -5,6 +5,12 @@
   director: "Milos Forman",
   genre: "Drama",
   img: "the-people-vs-larry-flynt-1996-1.jpg",
+  slideshow: true,
+  num: 2,
+  slides: [{
+  	slide: "the-people-vs-larry-flynt-1996-1.jpg"},
+  	{ slide: "thepeoplevslarryflynt.jpg" }, 
+  ],
   youtube: "http://www.youtube.com/v/MeTuNES82O0",
   id: 84
 }

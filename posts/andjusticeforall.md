@@ -4,7 +4,17 @@
   actors: "Al Pacino, Jack Warden, John Forsythe",
   director: "Norman Jewison",
   genre: "Drama",
-  img: "and-justice-for-all-1979-3.jpg",
+  img: "and-justice-for-all-1979-3.jpg",  
+  slideshow: true,
+  num: 6,
+  slides: [
+    {slide: "and-justice-for-all-1979-3.jpg" },
+  	{slide: "andjusticeforall1.jpg" },
+  	{slide: "andjusticeforall2.jpg" },
+  	{slide: "andjusticeforall3.jpg" },
+  	{slide: "andjusticeforall4.jpg" },
+  	{slide: "andjusticeforall6.jpg" }
+  ],
   youtube: "http://www.youtube.com/v/BofddwtPBPw",
   id: 10
 }

@@ -12,7 +12,23 @@ $(function() {
     $navBar.toggleClass('nav-show');
   });
 
-  $('#mixx').mixItUp(); 
+  $('#mixx').mixItUp({
+    load: {
+      sort: 'random'
+    }
+  }); 
+
+  if ($('.slideshow')) {
+    $('.slideshow').slick();
+  }
+    // place this within dom ready function
+  function showpanel() {     
+    
+    $('.slideshow').slickNext();
+ }
+
+ // use setTimeout() to execute
+ setTimeout(showpanel, 500)
 
   $('.modal-open').on('click', function() {
     $('.modal').show();
@@ -20,12 +36,17 @@ $(function() {
   });
 
   $('.toggle-image').on('click', function() {
-    $('.modal-image').show();
+
+    $('.modal-image').fadeIn();
+    $('.modal-image').addClass('active');
+    $('.toggle-image').fadeOut();
   });
 
   $('.close').on('click', function() {
     $('.modal').hide();
     $('.modal-image').hide();
+    $('.modal-image').removeClass('active');
+    $('.toggle-image').fadeIn();
     $('#video').get(0).stopVideo();
   })
 

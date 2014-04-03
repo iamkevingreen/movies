@@ -5,6 +5,13 @@
   director: "Jonathan Demme",
   genre: "Drama",
   img: "philadelphia-1993-1.jpg",
+  slideshow: true,
+  num: 2,
+  slides: [{
+  	slide: "philadelphia-1993-1.jpg"
+  },{
+  	slide: "philadelphia2.jpg"
+  }],
   youtube: "http://www.youtube.com/v/wHSH-NpCQOw",
   id: 61
 }

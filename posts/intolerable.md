@@ -5,6 +5,13 @@
   director: "Joel Coen",
   genre: "Comedy",
   img: "intolerable-cruelty-2003-2.jpg",
+  slideshow: true,
+  num: 2,
+  slides: [{
+  	slide: "intolerable-cruelty-2003-2.jpg"
+  },{
+  	slide: "intolerablecruelty.jpg"
+  }],
   youtube: "http://www.youtube.com/v/6PpQk63iIWw",
   id: 34
 }

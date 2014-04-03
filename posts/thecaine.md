@@ -4,7 +4,16 @@
   actors: "Robert Francis, Humphrey Bogart, José Ferrer",
   director: "Edward Dmytryk",
   genre: "Drama",
-  img: "the-caine-mutiny-1954-3.jpg",
+  img: "the-caine-mutiny-1954-3.jpg", 
+  slideshow: true,
+  num: 5,
+  slides: [{
+  	slide: "the-caine-mutiny-1954-3.jpg"},
+  	{ slide: "thecainemutiny1.jpg" }, 
+  	{ slide: "thecainemutiny2.jpg" }, 
+  	{ slide: "thecainemutiny3.jpg" }, 
+  	{ slide: "thecainemutiny4.jpg" }, 
+  ],
   youtube: "http://www.youtube.com/v/95QqBXLG2I",
   id: 71
 }

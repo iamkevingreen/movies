@@ -5,6 +5,12 @@
   director: "Taylor Hackford",
   genre: "Thriller",
   img: "the-devils-advocate-1997-1.jpg",
+  slideshow: true,
+  num: 2,
+  slides: [{
+  	slide: "the-devils-advocate-1997-1.jpg"},
+  	{ slide: "thedevilsadvocate1.jpg" }
+  ],
   youtube: "http://www.youtube.com/v/9enPC37mHrM",
   id: 75
 }
